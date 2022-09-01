@@ -18,7 +18,7 @@ awesome/4.7.0/css/font-awesome.min.css">
                 </div>
                 
                 <ul>
-                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="active" onclick="myFunction ()"><a href="#">HOME</a></li>
                     <li><a href="About us.html">ABOUT US</a></li>
                     <li><a href="ADMISSION.html">ADMISSION</a></li>
                     <li><a href="GALLERY.html">GALLERY</a></li>
@@ -65,22 +65,46 @@ awesome/4.7.0/css/font-awesome.min.css">
                 </div>
         
             </section>
+
+            <h2 class="course">Extra Co-curriculum Activities</h2>
+
             <div class="purchase">
                 <h4 id="purchase_header">ECOMERCE PURCHASING GROUP IN HARVARD</h4>
                 <P>In breaking the monotomy of studies, we also have some commodities that the students of harvard university would like to offer ....we also sell shoes at a cheaper price </P>
 
                 <div class="shoes_buy">
                 <img src="./src/assets/j4.webp" alt="j4">
-                    <p id="nike">Nike shoe</p>  
-                    <button id="bt" onclick="purchase()"> Purchase - $140</button>
+                    <p id="nike">Nike shoe</p> 
+                    <div class="btn_buy">
+                    <button id="bt" onclick="purchase()">Click to Purchase - $140</button>
+                </div>
                     <p id="error"></p>
     
             </div>
-            <script src="./src/index.js"></script>
+            <div class="calc">
+                <div class="numbers">
+
+            <input type="number" id="num1_el">
+            <input type="text" id="num2_el">
+                </div>
+                <br>
+                <div class="equal">
+            <button onclick="add ()">Add (+)</button>
+            <button onclick="substract ()">Substract (-)</button>
+            <button onclick="Divide ()">Divide (/)</button>
+            <button onclick="Multiply ()">Multiply (*)</button>
+                </div>
+            <br>
+            <span id="sum_el">sum: </span>
+        </div>
+            <script src="./src/index.js">
+                function myFunction() {
+                    alert("Hello! I am an alert box!");
+                }
+            </script>
         </body>
         </html>
-        
-        
+
         <section class="footer">
             <h2>VISIT US ON OUR SITES BELOW TO KNOW MORE</h2>
             <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. <br>Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution</p>

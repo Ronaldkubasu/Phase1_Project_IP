@@ -153,7 +153,7 @@ p{
 }
 
 .row{
-    margin-top: 5%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -240,9 +240,10 @@ h3{
     margin-bottom: 5px;
 }
 
+
 #bt{
     background: white;
-    color: black;
+    color: green;
     margin-top: 10px;
     border: 1px solid black;
     padding: 10px 16px;
@@ -254,4 +255,27 @@ h3{
 #error{
     color: red;
     font-weight: 200;
+}
+
+.equal{
+    padding: 0px 40px 0px ;
+    margin-left: 21px;
+}
+
+.equal button{
+    padding: 20px;
+    margin: 20px;
+}
+
+#sum_el{
+    color: blue;
+    font-size: 30px;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.numbers{
+    padding-left: 60px;
+    margin-left: 20px;
 }
