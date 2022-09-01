@@ -15,6 +15,7 @@ document.getElementById("num2_el").textContent = num2
 
 let sumEl = document.getElementById("sum_el")
 
+
 function add() {
     let result = num1 + num2
     sumEl.textContent = "sum: " + result
@@ -34,3 +35,7 @@ function Multiply() {
     let result = num1 * num2
     sumEl.textContent = "sum: " + result
 }
+
+let firstCard = 6
+let secondCard = 9
+let sum = firstCard = secondCard
