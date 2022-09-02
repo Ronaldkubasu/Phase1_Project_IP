@@ -47,19 +47,21 @@ function Multiply() {
 // Our casino game starts here
 let firstCard = 10
 let secondCard = 11
+let Cards = [firstCard, secondCard]
 let product = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
 
+
 let  messageEl = document.getElementById("message_el")
 console.log(message_el)
 
 let productEl = document.getElementById("sum_el")
-let cardsEl = document.getElementById("card-el")
+// let cardsEl = document.getElementById("card-el")
 
 function startGame () {
-     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+    //  cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
     productEl.textContent = "Score: " + product
 if (product <= 20) {
     message = "Do you want to draw a new card?" 
@@ -74,5 +76,12 @@ if (product <= 20) {
 messageEl.textContent = message
 
 }
+
+fetch("db.json")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.sentence)
+        document.querySelector(".calc").innerHTML = data.secondCard
+    })
 
 // Our casino ends here
