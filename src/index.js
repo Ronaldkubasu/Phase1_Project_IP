@@ -59,7 +59,7 @@ let productEl = document.getElementById("sum_el")
 
 function startGame () {
 
-    productEl.textContent = "sum " + product
+    productEl.textContent = "Score: " + product
 if (product <= 20) {
     message = "Do you want to draw a new card?" 
 }else if (product === 21) {
@@ -70,7 +70,7 @@ if (product <= 20) {
     isAlive = false
 }
 
-message_el.textContent = message
+messageEl.textContent = message
 
 }
 
