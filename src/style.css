@@ -196,7 +196,7 @@ h3{
 
 }
 
-.footer h2{
+.footer h2 p{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
@@ -221,7 +221,7 @@ h3{
 }
 
 .purchase{
-    padding: 0%;
+    padding: 20px;
     height: 0%;
 }
 
@@ -232,6 +232,14 @@ h3{
     font-size: 20px;
     margin-left: 50px;
     font-style: italic;
+    color: purple;
+}
+
+
+.goods{
+display: flex;
+/* padding: 10px 40px 10px 40px; */
+margin-left: 20px;
 }
 
 .shoes_buy{
@@ -243,6 +251,7 @@ h3{
 .shoes_buy img{
     width: 200px;
     display: block;
+    height: 200px;
 }
 
 #nike{

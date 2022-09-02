@@ -1,11 +1,16 @@
 
 // shoe purchase starts here
 let erroParagraph = document.getElementById("error")
+let noteParagraph = document.getElementById("note")
+let noticeParagraph = document.getElementById("notice")
+
 console.log(erroParagraph)
 
 function purchase () {
     console.log("button was clicked")
     erroParagraph.textContent  = "Congrats!!! You've successfully puchased your j4 pro nike shoe"
+    noteParagraph.textContent  = "Congrats!!! You've successfully puchased your Dior Air Force 1"
+    noticeParagraph.textContent  = "Congrats!!! You've successfully puchased your sneekers"
 }
 
 // shoe purchase ends here
