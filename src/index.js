@@ -56,9 +56,10 @@ let  messageEl = document.getElementById("message_el")
 console.log(message_el)
 
 let productEl = document.getElementById("sum_el")
+let cardsEl = document.getElementById("card-el")
 
 function startGame () {
-
+     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
     productEl.textContent = "Score: " + product
 if (product <= 20) {
     message = "Do you want to draw a new card?" 
