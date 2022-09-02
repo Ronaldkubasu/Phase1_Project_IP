@@ -77,6 +77,15 @@ messageEl.textContent = message
 
 }
 
+
+function newCard () {
+    let card = 6
+    product += card
+    startGame()
+}
+
+// Our casino ends here
+
 fetch("db.json")
     .then(response => response.json())
     .then(data => {
@@ -84,4 +93,3 @@ fetch("db.json")
         document.querySelector(".calc").innerHTML = data.secondCard
     })
 
-// Our casino ends here
