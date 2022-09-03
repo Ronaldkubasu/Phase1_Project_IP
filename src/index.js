@@ -1,4 +1,9 @@
 
+function myFunction() {
+    alert("Hello! welcome to our harvad university Site");
+}
+
+
 // shoe purchase starts here
 let erroParagraph = document.getElementById("error")
 let noteParagraph = document.getElementById("note")
