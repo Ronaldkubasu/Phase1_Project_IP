@@ -2,7 +2,7 @@
 
 # Harvad University Site
 
-This is a website for a e-commerce Agricultural company.
+This is a website for a college known as Harvad university located at washington DC
 
 ## By *Ronald Kubasu*
 
