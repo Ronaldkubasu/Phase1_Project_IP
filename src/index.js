@@ -96,8 +96,8 @@ function newCard () {
 
 // Our casino ends here
 
-fetch("db.json")
-    .then(response => response.json())
+fetch(" http://localhost:3000/posts")
+    .then(response => console.log(response))
     .then(data => {
         console.log(data.sentence)
         document.querySelector(".calc").innerHTML = data.secondCard
