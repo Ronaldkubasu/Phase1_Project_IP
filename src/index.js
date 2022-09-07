@@ -17,6 +17,8 @@ function purchase () {
     
 }
 
+
+
 function buy () {
     noteParagraph.textContent  = "Congrats!!! You've successfully puchased your Dior Air Force 1"
 }
