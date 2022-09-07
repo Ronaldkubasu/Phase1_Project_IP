@@ -18,6 +18,8 @@ function purchase () {
     noticeParagraph.textContent  = "Congrats!!! You've successfully puchased your sneekers"
 }
 
+
+
 // shoe purchase ends here
 
 
