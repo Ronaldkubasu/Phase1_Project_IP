@@ -14,10 +14,16 @@ console.log(erroParagraph)
 function purchase () {
     console.log("button was clicked")
     erroParagraph.textContent  = "Congrats!!! You've successfully puchased your j4 pro nike shoe"
-    noteParagraph.textContent  = "Congrats!!! You've successfully puchased your Dior Air Force 1"
-    noticeParagraph.textContent  = "Congrats!!! You've successfully puchased your sneekers"
+    
 }
 
+function buy () {
+    noteParagraph.textContent  = "Congrats!!! You've successfully puchased your Dior Air Force 1"
+}
+
+function own () {
+    noticeParagraph.textContent  = "Congrats!!! You've successfully puchased your sneekers"
+}
 // shoe purchase ends here
 
 
