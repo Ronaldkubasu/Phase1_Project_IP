@@ -1,7 +1,16 @@
 
 function myFunction() {
     alert("Hello! welcome to our harvad university Site");
+    fetch(" https://zoo-animal-api.herokuapp.com/animals/rand/4")
+    .then(response => console.log(response))
+    .then(data => {
+        console.log(data.sentence)
+        document.querySelector(".calc").innerHTML = data.secondCard;
+    })
+    .catch((e) => console.log(e));
+
 }
+
 
 
 // shoe purchase starts here
@@ -97,11 +106,4 @@ function newCard () {
 }
 
 // Our casino ends here
-
-fetch(" http://localhost:3000/posts")
-    .then(response => console.log(response))
-    .then(data => {
-        console.log(data.sentence)
-        document.querySelector(".calc").innerHTML = data.secondCard
-    })
 
