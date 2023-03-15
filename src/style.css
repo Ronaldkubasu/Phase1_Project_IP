@@ -30,6 +30,7 @@ ul{
     float: left;
     width: 150px;
     height: auto;
+    border-radius: 50%;
 }
 
 .main{
